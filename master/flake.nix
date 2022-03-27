@@ -11,6 +11,7 @@
   inputs.src-nimler-master.ref   = "refs/heads/master";
   inputs.src-nimler-master.owner = "wltsmrz";
   inputs.src-nimler-master.repo  = "nimler";
+  inputs.src-nimler-master.dir   = "";
   inputs.src-nimler-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
