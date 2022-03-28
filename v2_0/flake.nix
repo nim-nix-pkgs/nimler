@@ -11,7 +11,6 @@
   inputs.src-nimler-v2_0.ref   = "refs/tags/v2.0";
   inputs.src-nimler-v2_0.owner = "wltsmrz";
   inputs.src-nimler-v2_0.repo  = "nimler";
-  inputs.src-nimler-v2_0.dir   = "";
   inputs.src-nimler-v2_0.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
